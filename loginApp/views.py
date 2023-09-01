@@ -6,4 +6,7 @@ from django.shortcuts import render
 
 
 def login(request):
-    return HttpResponse("로그인페이지 입니다.")
+    return render(request, "loginApp/hello_world.html")
+
+
+
